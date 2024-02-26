@@ -1,5 +1,5 @@
 {
-  "fullNodeVersion": "v2.3.5",
+  "fullNodeVersion": "v2.8.3",
   "compilerOptionsUsed": {
     "ignoreUnusedConstantsWarnings": false,
     "ignoreUnusedVariablesWarnings": false,
@@ -9,23 +9,86 @@
     "ignoreCheckExternalCallerWarnings": false
   },
   "infos": {
-    "IFungibleToken": {
-      "sourceFile": "../node_modules/@alephium/web3/std/fungible_token_interface.ral",
-      "sourceCodeHash": "6809cb06fb20fa7edf529461998beeebd12b1636d439612cca2f84214dbf4a20",
+    "AddAllowedConsumer": {
+      "sourceFile": "oracles/tx-scripts/AddAllowedConsumer.ral",
+      "sourceCodeHash": "25bffcc4af1deb9928658027effcc9091ceb03e7182ec52bcb83797a5b6ee2ea",
       "bytecodeDebugPatch": "",
       "codeHashDebug": "",
       "warnings": []
     },
-    "TokenFaucet": {
-      "sourceFile": "token.ral",
-      "sourceCodeHash": "3a12c7604f3899bde03ab81e81eac394a53e723c6e99bc38aeb722689826759f",
-      "bytecodeDebugPatch": "=20-2+67=101+3a0007e02=1+75468652063757272656e742062616c616e63652069732000=46",
-      "codeHashDebug": "a3309aa3a0dbd0c53b67a0c422316dcbc0571d8fa5f9ea2ab374b5c110f4efe2",
+    "CompletePriceFetch": {
+      "sourceFile": "usage-example/scripts/CompletePriceFetch.ral",
+      "sourceCodeHash": "e5a9634b466fcd9261a8d5928e6d0b6ee22a940f49daaf671ad88c11b5784005",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
       "warnings": []
     },
-    "Withdraw": {
-      "sourceFile": "withdraw.ral",
-      "sourceCodeHash": "52423580f02f5aab7050bfb9a14b497ea4bdcb10b3444483650f3dad8e0e5330",
+    "FetchPrice": {
+      "sourceFile": "usage-example/scripts/FetchPrice.ral",
+      "sourceCodeHash": "9c54a086ddda89996cf10b02b041bfc8536af5667a69047241b041e679c24b1b",
+      "bytecodeDebugPatch": "=12+1=1-1+7e01402743616c6c696e67207468652066657463682070726963652077697468203220616c7068732e2e2e=42",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "FulfillPriceRequest": {
+      "sourceFile": "oracles/tx-scripts/FulfillPriceRequest.ral",
+      "sourceCodeHash": "60910866e9fc67c25f1d778999f801ddcc077c9fdceab1231e09ea13569bab0f",
+      "bytecodeDebugPatch": "=13+a{0}{1}{2}7e04134=1+756c66696c6c696e67207265717565737420022c20022c2000=17",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "MinimalistExchange": {
+      "sourceFile": "usage-example/MinimalistExchange.ral",
+      "sourceCodeHash": "32b499fabab4bbfc8e3612516b8ba9bfd7165c74a4a2fecea601861f040bbd77",
+      "bytecodeDebugPatch": "=27+1=1-2+5=1-2+1=1+f=184-2+3a=14+7e0315436f6d706172696e67206164647265737365733a200120001600a000=22+1400a0031400a003417e040a436f6d706172696e6720022c20022c2000=148+a0037e020a526573756c742069732000=116",
+      "codeHashDebug": "b606a511264bb45179e8c02ba808bc8fd646a741836267634900fd998852982b",
+      "warnings": []
+    },
+    "OracleOperator": {
+      "sourceFile": "oracles/OracleOperator.ral",
+      "sourceCodeHash": "7cd8ebd1523c4a3908f9a4799716288b3cf95409962a6e8618a1af1e88ed68f8",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "f047354e9fbe5dc6bf5c9d5b2cc92c8c6b62f4bf362f001244e2255bdd3ed68e",
+      "warnings": []
+    },
+    "OraclePriceRequest": {
+      "sourceFile": "oracles/OraclePriceRequest.ral",
+      "sourceCodeHash": "b787b5549486ada2e02f9a30232d4050cf0e6c7e1c29077032fb12a7587b6f61",
+      "bytecodeDebugPatch": "=16-2+86=1-3+14f=80+17b20c=1+dc=1+0001017e030b44657374726f79696e6720182c2073656e64696e672066756e6473206261636b20746f2000b3ce007e030843616c6c65723a200b2073686f756c642062652000=50+35160016017e031b46756c66696c6c696e67=1+074686=1+20726571756573742e2e2e2c20022c2000=50+a002037e031246756c66696c6c6564207265717565737420022c2000=60+7e031c57696c6c2070617920746865206f7261636c65206d616e61676572200520666f72200620414c5048730c0d0c0dce00010601021602=2+7e010d46756e64732073656e742e2e2e",
+      "codeHashDebug": "b75ef5a149f75b6f1a998c036560ef3b4260e2d73fad1824c092166c90c04fc6",
+      "warnings": []
+    },
+    "OracleSubscription": {
+      "sourceFile": "oracles/OracleSubsciption.ral",
+      "sourceCodeHash": "bc3454f3dd59d958587c9dfb5277f7602870806ef7c4de0d044e85e0a673c28b",
+      "bytecodeDebugPatch": "=14-2+b=1-2=1-3+11f=1+12f=1-3+138=1-2+1=1+f=2-2+ee=89-1+4=16+ce017e0312416464696e67206e65772063616c6c657220402f20746f20746865206c697374206f6620616c6c6f7765642063616c6c6572206f6620737562736372697074696f6e20001600=115-1+b=16+ce017e030e52656d6f76652063616c6c657220402866726f6d2074686520616c6c6f7765642063616c6c6572206f6620737562736372697074696f6e20001600=167-1+a=22+16007e02402042616c616e636520696e20737562736372697074696f6e207265717565737420001600a47e021172656d61696e696e6720746f6b656e732000=156",
+      "codeHashDebug": "13470377bdb0612659c4261e3f542642353ad1472bc3b17ac33ee0262960a2bf",
+      "warnings": []
+    },
+    "OracleSubscriptionAllowedConsumer": {
+      "sourceFile": "oracles/OracleSubscriptionAllowedConsumer.ral",
+      "sourceCodeHash": "019f763d990652fb15b005088fe082dd7c259f749c70f527db6586093909d3dd",
+      "bytecodeDebugPatch": "=6-2+4068=29+f7e0110456e746572696e672064657374726f79b37e021463616c6c657220636f6e74726163742069643=1+2000ce017e021a537562736372697074696f6e20636f6e74726163742069643a2000=26",
+      "codeHashDebug": "96e14ee270fdb4ee60633be70fb2e1a4c27e9fd900b31908817cd9c0415b877d",
+      "warnings": []
+    },
+    "RegisterSubscription": {
+      "sourceFile": "oracles/tx-scripts/RegisterSubscription.ral",
+      "sourceCodeHash": "7c8fe0469e1c34516565747da8ac6d466c7e4a28dfcf5bbe98c4f20efc1751a9",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "RemoveAllowedConsumer": {
+      "sourceFile": "oracles/tx-scripts/RemoveAllowedConsumer.ral",
+      "sourceCodeHash": "503fce2832430f2a73e678c1ffa65a77c3665247a806a1e1d8ff70edde4b79b9",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "RequestPrice": {
+      "sourceFile": "oracles/tx-scripts/RequestPrice.ral",
+      "sourceCodeHash": "6d7101d43da4b2b0d51e2ed9598866a8e8c218437e70b55bc94f261677aa2aa6",
       "bytecodeDebugPatch": "",
       "codeHashDebug": "",
       "warnings": []

@@ -1,0 +1,6 @@
+TxScript FetchPrice(myExchange: MinimalistExchange) {
+    // Register a new subscription on the operator
+    emit Debug(`Calling the fetch price with 2 alphs...`)
+    let minimumLockableAmount = myExchange.getOracleOperator().getMinimumLockableAmountForFetchPrice()
+    myExchange.fetchPrice{callerAddress!() -> ALPH: minimumLockableAmount}()
+}

@@ -2,5 +2,9 @@
 /* tslint:disable */
 /* eslint-disable */
 
-export * from './TokenFaucet'
-export * from './scripts'
+export * from "./MinimalistExchange";
+export * from "./OracleOperator";
+export * from "./OraclePriceRequest";
+export * from "./OracleSubscription";
+export * from "./OracleSubscriptionAllowedConsumer";
+export * from "./scripts";

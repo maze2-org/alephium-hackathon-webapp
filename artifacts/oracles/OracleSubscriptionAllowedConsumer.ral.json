@@ -1,0 +1,60 @@
+{
+  "version": "v2.8.3",
+  "name": "OracleSubscriptionAllowedConsumer",
+  "bytecode": "0202091c010000000102ce000201020000000ace01b3410d7b0c0dce010101b0",
+  "codeHash": "d9d9ab62c33265e580f30223f5fdf7e028dceba69f9d1a795ed13d45d1c0b8a1",
+  "fieldsSig": {
+    "names": [
+      "consumerAddress",
+      "subscription"
+    ],
+    "types": [
+      "Address",
+      "ByteVec"
+    ],
+    "isMutable": [
+      false,
+      false
+    ]
+  },
+  "eventsSig": [],
+  "functions": [
+    {
+      "name": "getConsumerAddress",
+      "usePreapprovedAssets": false,
+      "useAssetsInContract": false,
+      "isPublic": true,
+      "paramNames": [],
+      "paramTypes": [],
+      "paramIsMutable": [],
+      "returnTypes": [
+        "Address"
+      ]
+    },
+    {
+      "name": "destroy",
+      "usePreapprovedAssets": false,
+      "useAssetsInContract": true,
+      "isPublic": true,
+      "paramNames": [],
+      "paramTypes": [],
+      "paramIsMutable": [],
+      "returnTypes": []
+    }
+  ],
+  "constants": [],
+  "enums": [
+    {
+      "name": "ErrorCodes",
+      "fields": [
+        {
+          "name": "InvalidCaller",
+          "value": {
+            "type": "U256",
+            "value": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

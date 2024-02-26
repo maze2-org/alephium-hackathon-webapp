@@ -1,11 +1,17 @@
 {
-  "version": "v2.3.5",
-  "name": "Withdraw",
-  "bytecodeTemplate": "01010300000005{1}0d0c{0}0105",
+  "version": "v2.8.3",
+  "name": "FetchPrice",
+  "bytecodeTemplate": "0101030001000f0c0d0c0d{0}010401011700b41600a20c0c{0}0106",
   "fieldsSig": {
-    "names": ["token", "amount"],
-    "types": ["ByteVec", "U256"],
-    "isMutable": [false, false]
+    "names": [
+      "myExchange"
+    ],
+    "types": [
+      "ByteVec"
+    ],
+    "isMutable": [
+      false
+    ]
   },
   "functions": [
     {

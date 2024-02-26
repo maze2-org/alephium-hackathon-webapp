@@ -2,17 +2,32 @@
 /* tslint:disable */
 /* eslint-disable */
 
-import { Contract, ContractFactory } from '@alephium/web3'
-import { TokenFaucet } from '.'
+import { Contract, ContractFactory } from "@alephium/web3";
+import {
+  MinimalistExchange,
+  OracleOperator,
+  OraclePriceRequest,
+  OracleSubscription,
+  OracleSubscriptionAllowedConsumer,
+} from ".";
 
-let contracts: ContractFactory<any>[] | undefined = undefined
+let contracts: ContractFactory<any>[] | undefined = undefined;
 export function getContractByCodeHash(codeHash: string): Contract {
   if (contracts === undefined) {
-    contracts = [TokenFaucet]
+    contracts = [
+      MinimalistExchange,
+      OracleOperator,
+      OraclePriceRequest,
+      OracleSubscription,
+      OracleSubscriptionAllowedConsumer,
+    ];
   }
-  const c = contracts.find((c) => c.contract.codeHash === codeHash || c.contract.codeHashDebug === codeHash)
+  const c = contracts.find(
+    (c) =>
+      c.contract.codeHash === codeHash || c.contract.codeHashDebug === codeHash
+  );
   if (c === undefined) {
-    throw new Error('Unknown code with code hash: ' + codeHash)
+    throw new Error("Unknown code with code hash: " + codeHash);
   }
-  return c.contract
+  return c.contract;
 }
