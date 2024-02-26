@@ -1,1 +1,1 @@
-# alephium-hackathon-webapp
+alephium-hackathon-webapp

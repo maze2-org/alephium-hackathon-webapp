@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae2762f2-3f01-4e47-ad1d-8602865e0700" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project.json" beforeDir="false" afterPath="$PROJECT_DIR$/.project.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alephium.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/alephium.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/.deployments.devnet.json" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/.deployments.devnet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/.deployments.testnet.json" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/.deployments.testnet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/TokenFaucet.ral.json" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/TokenFaucet.ral.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/Withdraw.ral.json" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/Withdraw.ral.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/ts/TokenFaucet.ts" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/ts/TokenFaucet.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/ts/contracts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/ts/contracts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/ts/deployments.ts" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/ts/deployments.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/ts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/ts/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/ts/scripts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/ts/scripts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TokenDapp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TokenDapp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TxStatus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TxStatus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/token.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/token.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/utils.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/utils.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/token.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/token.test.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2cuQZY9uQatEziRusHYOILWqsOJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/grigoryan/react/alephium-nextjs-tutorial&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/grigoryan/react/alephium-nextjs-tutorial/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae2762f2-3f01-4e47-ad1d-8602865e0700" name="Changes" comment="" />
+      <created>1708959039999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708959039999</updated>
+      <workItem from="1708959041548" duration="1091000" />
+      <workItem from="1708961312708" duration="772000" />
+      <workItem from="1708962606787" duration="9089000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
